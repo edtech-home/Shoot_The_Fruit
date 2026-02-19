@@ -12,6 +12,8 @@ def on_mouse_down(pos):
     if apple.collidepoint(pos):
         print("Good shot!")
         place_apple()
-        
+    else:
+        print("You missed!")
+
 place_apple()
 pgzrun.go()
