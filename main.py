@@ -4,7 +4,12 @@ import random
 score = 0
 apple = Actor("apple")
 def draw():
-    screen.draw.text(score, 50, 750)
+    screen.draw.text(
+        score, 
+        (50, 50),
+        fontsize = 50,
+        color = "white"
+    )
     screen.clear()
     apple.draw()
 
