@@ -4,13 +4,13 @@ import random
 score = 0
 apple = Actor("apple")
 def draw():
+    screen.clear()
     screen.draw.text(
-        score, 
+        str(score), 
         (50, 50),
         fontsize = 50,
-        color = "white"
+        color = "white",
     )
-    screen.clear()
     apple.draw()
 
 def place_apple():
