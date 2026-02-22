@@ -14,6 +14,6 @@ sudo dpkg -i shoot-the-fruit-1.0-all.deb
 ```
 Most importantly, enjoy the game. I am actively improving the codebase, so make sure to stay tuned for newer versions!
 
-If you have any suggestions, please feel free to write a pull requuest and I will review your helpful feedback.
+If you have any suggestions, please feel free to write a pull request and I will review your helpful feedback.
 
 
